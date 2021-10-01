@@ -2,4 +2,6 @@
 	email = saurabhjha2001@gmail.com
 	name = Saurabh Jha
 [credential]
-	helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
+
+[core]
+	worktree = /
