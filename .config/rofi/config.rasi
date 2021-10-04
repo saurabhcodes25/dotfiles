@@ -1,6 +1,6 @@
 configuration {
   modi: "run,drun,window,Kill:~/.config/rofi/scripts/kill.sh";
-  width: 30;
+  width: 20;
   font: "Iosevka FT Regular 10.5";
   terminal: "kitty";
   disable-history: false;
@@ -20,23 +20,23 @@ configuration {
 * {
   /*bg: #0F1212;*/
   bg: #1d212a;
-  fg: #e3e3e3;
   accent: #d89495;
+  fg: #1d212a;
   button: #a7bdfb;
   
   background-color: @bg;
-  text-color: @fg;
+  text-color: @accent;
 }
 
 window {
   padding: 0px;
-  border-radius: 4px;
+  border-radius: 0px;
   border:6px;
   border-color:#272c38;
 }
 
 prompt, entry {
-  text-color: @fg;
+  text-color: @accent;
   padding: 8px;
 }
 
@@ -59,8 +59,8 @@ element {
 }
 
 element selected {
-  background-color: @fg;
-  text-color: @bg;
+  background-color: @bg;
+  text-color: @accent;
 }
 
 button {
@@ -69,8 +69,8 @@ button {
 }
 
 button selected {
-  background-color: @accent;
-  text-color: @bg;
+  background-color: @bg;
+  text-color: @accent;
   border-radius: 2px;
   padding: 4px;
 }

@@ -13,10 +13,10 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # screenshot 
-#super + Print
-#	maim "/home/$USER/Pictures/Screenshots/$(date).png" 
-#super + shift + x 
-#        maim -s -o "/home/$USER/Pictures/Screenshots/$(date).png"  
+super + Print
+	maim "/home/$USER/Pictures/Screenshots/$(date).png" 
+super + shift + Print 
+        maim -s -o "/home/$USER/Pictures/Screenshots/$(date).png"  
 #
 # bspwm hotkeys
 #
