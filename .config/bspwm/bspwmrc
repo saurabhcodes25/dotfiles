@@ -3,6 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d I II III IV V VI VII 
 nitrogen --restore &
+unclutter &
 picom &
 ############Window Settings ####################
 bspc config border_width         1
@@ -42,4 +43,3 @@ polybar example -c ~/.config/polybar/config.ini
 
 # •• Compositor Init
 #picom --experimental-backends &
-
