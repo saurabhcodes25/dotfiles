@@ -1,5 +1,6 @@
 # BSPWM+POLYBAR
 ![](images/screenshot.png)
+![](images/screenshot2.png)
 
 # Index
 - [🎨 Config files](.config/)
