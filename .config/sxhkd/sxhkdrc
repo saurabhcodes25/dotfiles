@@ -14,9 +14,10 @@ super + Escape
 
 # screenshot 
 super + Print
-	maim "/home/$USER/Pictures/Screenshots/$(date).png" 
+	maim "/home/$USER/Pictures/Screenshots/$(date).png"
 super + shift + Print 
-        maim -s -o "/home/$USER/Pictures/Screenshots/$(date).png"  
+        maim -s -u | xclip -selection clipboard -t image/png -i       
+
 #
 # bspwm hotkeys
 #

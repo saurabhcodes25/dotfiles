@@ -1,2 +1,2 @@
 export REDSHIFT=off
-export REDSHIFT_TEMP=4100
+export REDSHIFT_TEMP=3500
