@@ -1,29 +1,21 @@
-*background: #0f1315 
 
-*foreground: #C5C8C9
 
-! Black + DarkGrey
-*color0:  #2F3131
-*color8:  #343636  
-! DarkRed + Red
-*color1:  #e74c4c 
-*color9:  #c26f6f 
-! DarkGreen + Green
-*color2:  #6bb05d
-*color10: #8dc776
-! DarkYellow + Yellow
-*color3:  #e59e67
-*color11: #e7ac7e
-! DarkBlue + Blue
-*color4:  #5b98a9   
-*color12: #7ab3c3 
-! DarkMagenta + Magenta
-*color5:  #ef7cbb
-*color13: #d3869b
-! DarkCyan + Cyan
-*color6:  #51a39f  
-*color14: #6db0ad 
-! LightGrey + White
-*color7:  #c4c4c4 
-*color15: #bfbfbf
-
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6

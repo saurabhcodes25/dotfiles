@@ -22,3 +22,5 @@ alias mydotfiles='/usr/bin/git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 #POWERLINE_BASH_SELECT=1
 #. /usr/share/powerline/bindings/bash/powerline.sh
 alias mysql='sudo mysql -u root'
+alias reload='sudo nmcli connection reload'
+alias nv='nvim'
