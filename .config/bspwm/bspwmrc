@@ -5,6 +5,7 @@ bspc monitor -d I II III IV V VI VII
 nitrogen --restore &
 unclutter &
 picom &
+xrandr --dpi 96 &
 ############Window Settings ####################
 bspc config border_width         1
 bspc config window_gap           5 
