@@ -44,3 +44,4 @@ polybar example -c ~/.config/polybar/config.ini
 
 # •• Compositor Init
 #picom --experimental-backends &
+

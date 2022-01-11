@@ -8,10 +8,11 @@ configuration {
   window-format:   "[{w:1}] {t}";
   click-to-exit:   true;
 
-  modi:           "drun,window,run,Kill:~/.config/rofi/scripts/kill.sh";
+  modi:           "drun,window,filebrowser,run,Kill:~/.config/rofi/scripts/kill.sh";
   display-window: "";
   display-run:    "";
-  display-ssh:    "";
+  display-filebrowser: "";
+  display-wifi:"";
   display-drun:   "";
   display-Kill:   "";
 }
