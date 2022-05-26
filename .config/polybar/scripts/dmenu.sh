@@ -18,4 +18,4 @@ display off 	 xset dpms force off"
 
 choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p BYE -l 7 )" || exit 1
 
-435u`echo "$cmds" | grep "^$choice	" | cut -d '	' -f2-`
+`echo "$cmds" | grep "^$choice	" | cut -d '	' -f2-`
