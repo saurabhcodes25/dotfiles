@@ -122,7 +122,8 @@ alias wireload='sudo nmcli connection reload'
 alias nv='nvim'
 #eval "$(starship init zsh)"
 
-alias caa='./caa'
+alias caastart='./caa -d'
+alias caastop='./caa -s'
 alias icat="kitty +kitten icat"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
